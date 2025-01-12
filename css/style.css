@@ -15,7 +15,7 @@
 
 /*ESTILOS HEADER*/
 header{
-    background-color: rgb(185, 252, 230);
+    background-color: rgb(215, 250, 238);
     height: 20vh;
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@ p{
 
 /*ESTILOS FOOTER*/
 footer{
-    background-color: rgb(185, 252, 230);
+    background-color: rgb(215, 248, 237);
     height: auto;
     display: flex;
     flex-direction: row;
@@ -180,7 +180,7 @@ footer nav ul li a{
     display: flex;
 }
 
-.footer-branding{
+.footer-logo{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -218,49 +218,45 @@ footer nav ul li a{
 
 .tit1, .tit2{
     text-align: center;
+    margin: 16px;
 }
 
-.e2{
+.sectionQueEncontrasA{
     display: grid;
     grid-template-columns: repeat(4, 20%);
     grid-template-rows: 12fr;
     padding: 16px;
 }
 
-.e2 .card-acerca, .e4 .card-acerca{
+.sectionTit1, .card-acerca, .titBeneficios .card-acerca{
     display: flex;
     flex-direction: column;
-    height: 180px;
 }
 
-.e2 .card-acerca img, .e4 .card-acerca img{
+.sectionQueEncontrasA .card-acerca img, .titBeneficios, .card-acerca img{
     margin: auto;
 }
 
-.e2 .card-acerca p{
+.card-acerca p{
     font-size: 16px;
 }
 
-.e3{
+.sectionBeneficios{
     display: grid;
-    grid-template-columns: repeat(4, 20%);
-}
-
-.e4{
-    display: grid;
-    grid-template-columns: repeat(4, 20%);
+    grid-template-columns: repeat(3, 30%);
+    margin: 16px;
 }
 
 @media (max-width: 576px) {
     header{
     }
-    .e2, .e4{
+    .sectionQueEncontrasAqui, .sectionBeneficios{
         display: flex;
         flex-direction: column;
     }
-    
-
 }
+
+
 /*PAGINA CONTACTO*/
 
 #mainContacto{
