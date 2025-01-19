@@ -9,13 +9,14 @@
 /*ESTILOS BODY*/
 #body{
     max-width: 100%;
-    background-image: url(../images/background.jpg);
+    background-color: rgb(130, 130, 255);    
     background-size: cover;
 }
 
 /*ESTILOS HEADER*/
 header{
-    background-color: rgb(215, 250, 238);
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     height: 20vh;
     display: flex;
     flex-direction: column;
@@ -33,10 +34,10 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     margin: 40px;
-    background-color: antiquewhite;
     padding: 15px;
     border-radius: 10px;
 }
+
 header .navbar-branding{
     display: flex;
     flex-direction: row;
@@ -57,6 +58,7 @@ header .navbar-branding{
 #nav ul{
     margin: auto;
 }
+
 #nav .botonesHeader{
     margin-left: auto;
     margin-right: 16px;
@@ -65,6 +67,7 @@ header .navbar-branding{
 
 .navLogo{
     width: 30px;
+    height: 30pX;
     display: flex;
     justify-content: flex-end;
     align-content: center;
@@ -120,23 +123,22 @@ p{
     height: 20%;
 }
 
-.botonesMain{
-    display:flex;
+.caja1 a{
     justify-content: center;
-    align-content: flex-end;
 }
 
-.botonesMain a{
+.caja1 a{
     text-decoration: none;
     margin: 40px;
-    background-color: rgb(141, 174, 236);
+    background-color: rgb(216, 224, 240);
     padding: 15px;
     border-radius: 10px;
 }
 
 /*ESTILOS FOOTER*/
 footer{
-    background-color: rgb(215, 248, 237);
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     height: auto;
     display: flex;
     flex-direction: row;
@@ -190,7 +192,7 @@ footer nav ul li a{
 .footer--copy{
     display: flex;
     justify-content: flex-end;
-    width: 45%;
+    width: 40%;
     margin: auto;
 }
 
@@ -271,7 +273,7 @@ footer nav ul li a{
 .iganch{
     text-decoration: none;
     margin: 40px;
-    background-color: rgb(141, 174, 236);
+    background-color: rgb(197, 215, 248);
     padding: 15px;
     border-radius: 10px;
 }
@@ -279,4 +281,11 @@ footer nav ul li a{
 /*PAGINA INFO*/
 
 /*PAGINA PLANES*/
+
+
+
+
+
+
+
 
