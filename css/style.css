@@ -6,217 +6,113 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*ESTILOS BODY*/
-#body{
-    max-width: 100%;
-    background-color: rgb(130, 130, 255);    
-    background-size: cover;
-}
-
-/*ESTILOS HEADER*/
-header{
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-}
-
-header nav ul{
-    display: flex;
-    justify-content: center;
-}
-
-header nav ul li{
+li{
     list-style: none;
 }
 
-header nav ul li a{
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+a{
     text-decoration: none;
-    margin: 40px;
-    padding: 15px;
-    border-radius: 10px;
 }
 
-header .navbar-branding{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+/*ESTILOS HEADER*/
+.nav--logo {
+    width: 60px;
 }
 
-#nav{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin-top: 16px;
+.navbar { /*PEQUEÑO BLUR DE FONDO*/
+    backdrop-filter: blur(3px);
+    background-color: rgba(55, 75, 112, 0.75);
 }
 
-#nav ul{
-    margin: auto;
-}
-
-#nav .botonesHeader{
-    margin-left: auto;
-    margin-right: 16px;
-    margin-top: 16px;
-}
-
-.navLogo{
-    width: 30px;
-    height: 30pX;
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-}
-
-.navTit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.botonesHeader a{
-    text-decoration: none;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+/*ESTILOS BODY*/
+#body{
+    max-width: 1400px;
+    background-color: rgb(130, 130, 255);
 }
 
 /*ESTILOS MAIN*/
 #main{
-    height: 90vh;
-    padding-top: 40px;
-}
-
-.imgMain{
-    width: 30%;
-    height: 30%;
+    min-height: 100vh; /*MIN HEIGHT PARA MARCAR EL ALTO MÍNIMO AL 100% DE LA PANTALLA QUE ESTÉ*/
+    padding-top: 90px;
 }
 
 .containerIndex{
     display: flex;
-    flex-direction: column; 
-}
-
-.caja1{
-    display: flex;
-    justify-content: center;
-}
-
-.caja1 p{
-    width: 30%;
-    font-size: 28px;
-    justify-content: center;
-    align-content: center;
-}
-
-p{
     text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
 
-.caja1 img{
+.imgMain{
     width: 20%;
-    height: 20%;
 }
 
-.caja1 a{
-    justify-content: center;
+.containerIndex p{
+    font-size: 28px;
+    width: 40%;
 }
 
-.caja1 a{
-    text-decoration: none;
-    margin: 40px;
+.containerIndex a{
     background-color: rgb(216, 224, 240);
-    padding: 15px;
     border-radius: 10px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .containerIndex {
+        flex-direction: column;
+    }
+    .containerIndex p {
+        width: 100%;
+    }
+    .containerIndex img {
+        width: 50%;
+    }
+    .containerIndex a {
+        margin-top: 10px;
+    }
 }
 
 /*ESTILOS FOOTER*/
-footer{
+#footer{
+    margin-top: auto;
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    height: auto;
     display: flex;
-    flex-direction: row;
-    bottom: 0%;
-    padding: 16px;
-}
-    
-footer nav ul{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-footer nav ul li{
-    list-style: none;
-}
-
-footer nav ul li a{
-    text-decoration: none;
-    margin: 40px;
-    padding: 16px;
-    border-radius: 10px;
-}
-
-#navFooter{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-.navTitFoot{
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
-}
-
-.navLogoF{
-    width: 30px;
-    height: 30px;
-    margin: auto;
-    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    text-align: center;
+    column-gap: 200px;
 }
 
 .footer-logo{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 30%;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.footer--copy{
-    display: flex;
-    justify-content: flex-end;
-    width: 40%;
-    margin: auto;
+.navTitFoot {
+    font-size: 20px;
+    margin: 0;
 }
 
-.footer--redes{
-    display: flex;
-    justify-content: flex-end;
-    width: 10%;
-    margin: auto;
+.navLogoF{
+    width: 60px;
 }
 
 .footer--redes i{
     font-size: 24px;
-    margin: 0 8px;
 }
-
 
 /*PAGINA ACERCA DE*/
-
-#mainAcercaDe{
-    margin: 80px auto;
-    width: 90%;
-    height: 400px;
-    max-width: 500px;
-}
 
 .tit1, .tit2{
     text-align: center;
@@ -249,21 +145,8 @@ footer nav ul li a{
     margin: 16px;
 }
 
-@media (max-width: 576px) {
-    header{
-    }
-    .sectionQueEncontrasAqui, .sectionBeneficios{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 
 /*PAGINA CONTACTO*/
-
-#mainContacto{
-    display: flex;
-}
 
 .igcontacto{
     width: 200px;
