@@ -117,7 +117,9 @@ a{
 .tit1, .tit2{
     text-align: center;
     margin: 16px;
+    margin-top: 20px;
 }
+
 
 .sectionQueEncontrasA{
     display: grid;
