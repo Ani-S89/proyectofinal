@@ -24,7 +24,8 @@ a{
     width: 60px;
 }
 
-.navbar { /*PEQUEÑO BLUR DE FONDO*/
+.navbar {
+/*PEQUEÑO BLUR DE FONDO*/
     backdrop-filter: blur(3px);
     background-color: rgba(55, 75, 112, 0.75);
 }
@@ -37,7 +38,7 @@ a{
 
 /*ESTILOS MAIN*/
 #main{
-    min-height: 100vh; /*MIN HEIGHT PARA MARCAR EL ALTO MÍNIMO AL 100% DE LA PANTALLA QUE ESTÉ*/
+    min-height: 100vh;
     padding-top: 90px;
 }
 
@@ -164,6 +165,26 @@ a{
 }
 
 /*PAGINA INFO*/
+.MainInfo{
+    display: flex;
+
+}
+
+.inFoTit{
+    background-color: rgb(216, 224, 240);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.inFoClases{
+    background-color: rgb(245, 244, 198);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
 
 /*PAGINA PLANES*/
 
