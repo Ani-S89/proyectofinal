@@ -152,21 +152,29 @@ a{
     display: flex;
 }
 
-.inFoTit{
+.animate__bounce{
     display: flex;
-    text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
-.inFoClases{
-    /*background-color: rgb(255, 255, 240);*/
+.animate__fadeIn{
     backdrop-filter: blur(3px);
-    background-color: rgba(204, 208, 214, 0.75);
+    background-color: rgba(197, 209, 226, 0.75);
     border-radius: 10px;
     padding: 20px;
     margin: 60px;
     display: flex;
     justify-content: center;
+}
+
+.animate__bounce{
+--animate-duration: 3s;
+}
+
+.animate__fadeIn{
+    --animate-duration: 8s;
+
 }
 
 /*PAGINA PLANES*/
