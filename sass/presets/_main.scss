@@ -1,0 +1,21 @@
+
+/*ESTILOS MAIN*/
+#main{
+    min-height: 100vh;
+    padding-top: 90px;
+}
+
+@media screen and (max-width: 800px){
+    .containerIndex {
+        flex-direction: column;
+    }
+    .containerIndex p {
+        width: 100%;
+    }
+    .containerIndex img {
+        width: 50%;
+    }
+    .containerIndex a {
+        margin-top: 10px;
+    }
+}
