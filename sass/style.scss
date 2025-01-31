@@ -1,13 +1,13 @@
 /*PRESETS*/
-@import "presets/reset";
-@import "presets/header";
-@import "presets/footer";
-@import "presets/main";
-@import "presets/body";
+@use "presets/reset";
+@use "presets/header";
+@use "presets/footer";
+@use "presets/main";
+@use "presets/body";
 
 /*PAGE*/
-@import "page sass/index";
-@import "page sass/acercaDe";
-@import "page sass/inFo";
-@import "page sass/planes";
-@import "page sass/contacto";
+@use "pagesass/index";
+@use "pagesass/acercaDe";
+@use "pagesass/inFo";
+@use "pagesass/planes";
+@use "pagesass/contacto";
