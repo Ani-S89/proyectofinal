@@ -1,0 +1,33 @@
+/*PAGINA ACERCA DE*/
+
+.tit1, .tit2{
+    text-align: center;
+    margin: 16px;
+}
+
+.sectionQueEncontrasA{
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: 12fr;
+    padding: 16px;
+}
+
+.sectionTit1, .card-acerca, .titBeneficios .card-acerca{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sectionQueEncontrasA .card-acerca img, .titBeneficios, .card-acerca img{
+    margin: auto;
+}
+
+.card-acerca p{
+    font-size: 16px;
+}
+
+.sectionBeneficios{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    margin: 16px;
+}

@@ -1,0 +1,43 @@
+/*ESTILOS MAIN*/
+#main{
+    min-height: 100vh; 
+    padding-top: 90px;
+}
+
+.containerIndex{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.imgMain{
+    width: 20%;
+}
+
+.containerIndex p{
+    font-size: 28px;
+    width: 40%;
+}
+
+.containerIndex a{
+    background-color: rgb(216, 224, 240);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .containerIndex {
+        flex-direction: column;
+    }
+    .containerIndex p {
+        width: 100%;
+    }
+    .containerIndex img {
+        width: 50%;
+    }
+    .containerIndex a {
+        margin-top: 10px;
+    }
+}

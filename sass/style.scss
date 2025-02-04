@@ -1,0 +1,13 @@
+/*PRESETS*/
+@use "presets/resets";
+@use "presets/header";
+@use "presets/main";
+@use "presets/body";
+@use "presets/footer";
+
+/*PAGES*/
+@use "page-sass/index";
+@use "page-sass/acercade";
+@use "page-sass/info";
+@use "page-sass/planes";
+@use "page-sass/contacto";
