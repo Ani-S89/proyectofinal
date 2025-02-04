@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/*PRESETS*/
+/*ESTILOS RESET*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav--logo {
+  width: 60px;
+}
+
+.navbar {
+  backdrop-filter: blur(3px);
+  background-color: rgba(55, 75, 112, 0.75);
+}
+
+/*ESTILOS MAIN*/
+#main {
+  min-height: 100vh;
+  padding-top: 90px;
+}
+
+.containerIndex {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.imgMain {
+  width: 20%;
+}
+
+.containerIndex p {
+  font-size: 28px;
+  width: 40%;
+}
+
+.containerIndex a {
+  background-color: rgb(216, 224, 240);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .containerIndex {
+    flex-direction: column;
+  }
+  .containerIndex p {
+    width: 100%;
+  }
+  .containerIndex img {
+    width: 50%;
+  }
+  .containerIndex a {
+    margin-top: 10px;
+  }
+}
+/*ESTILOS BODY*/
+#body {
+  max-width: 1400px;
+  background-color: rgb(130, 130, 255);
+}
+
+/*ESTILOS FOOTER*/
+#footer {
+  margin-top: auto;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 16px;
+  text-align: center;
+  column-gap: 200px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navTitFoot {
+  font-size: 20px;
+  margin: 0;
+}
+
+.navLogoF {
+  width: 60px;
+}
+
+.footer--redes i {
+  font-size: 24px;
+}
+
+/*PAGES*/
+/*PAGINA ACERCA DE*/
+.tit1, .tit2 {
+  text-align: center;
+  margin: 16px;
+}
+
+.sectionQueEncontrasA {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-template-rows: 12fr;
+  padding: 16px;
+}
+
+.sectionTit1, .card-acerca, .titBeneficios .card-acerca {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sectionQueEncontrasA .card-acerca img, .titBeneficios, .card-acerca img {
+  margin: auto;
+}
+
+.card-acerca p {
+  font-size: 16px;
+}
+
+.sectionBeneficios {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  margin: 16px;
+}
+
+/*PAGINA INFO*/
+.containerInFo {
+  display: flex;
+}
+
+.animate__bounce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animate__fadeIn {
+  backdrop-filter: blur(3px);
+  background-color: rgba(197, 209, 226, 0.75);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.animate__bounce {
+  --animate-duration: 3s;
+}
+
+.animate__fadeIn {
+  --animate-duration: 8s;
+}
+
+/*PAGINA PLANES*/
+.titPlanes {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.containerPlanes {
+  display: grid;
+  grid-template-columns: repeat(3, 34%);
+  margin: 30px;
+}
+
+.card-planes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(245, 202, 253, 0.75);
+  border-radius: 60px;
+  margin: 30px;
+}
+
+/*PAGINA CONTACTO*/
+.igcontacto {
+  width: 200px;
+  height: 200px;
+}
+
+.iganch {
+  text-decoration: none;
+  margin: 40px;
+}
+
+.titContacto {
+  text-align: center;
+}
+
+.igCaja {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.reSeñas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+/*# sourceMappingURL=style.csss.map */
