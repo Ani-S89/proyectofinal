@@ -8,7 +8,7 @@
 .containerPlanes{
     display: grid;
     grid-template-columns: repeat(3, 34%);
-    margin: 30px;
+    margin: 16px 24px
 }
 
 .card-planes{
@@ -18,4 +18,14 @@
     background-color: rgba(245, 202, 253, 0.75);
     border-radius: 60px;
     margin: 30px;
+    padding: 16px 24px;
 }
+
+@media (max-width: 576px){
+    .containerPlanes {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}
+
+
