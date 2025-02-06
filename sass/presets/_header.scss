@@ -5,4 +5,5 @@
 .navbar { 
     backdrop-filter: blur(3px);
     background-color: rgba(55, 75, 112, 0.75);
+    z-index: 10px;
 }

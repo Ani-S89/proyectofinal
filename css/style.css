@@ -28,6 +28,7 @@ a {
 .navbar {
   backdrop-filter: blur(3px);
   background-color: rgba(55, 75, 112, 0.75);
+  z-index: 10px;
 }
 
 /*ESTILOS MAIN*/
@@ -75,7 +76,6 @@ a {
 }
 /*ESTILOS BODY*/
 #body {
-  max-width: 1400px;
   background-color: rgb(130, 130, 255);
 }
 
